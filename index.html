@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav> Nav </nav>
+    <main>Main</main>
+    <section>Section</section>
+    <article>Article</article>
+    <aside>Aside</aside>
+    <footer>Footer</footer>
+    <i>Italic</i>
+    <b>Bold</b>
+    <strong>Strong</strong>
+    <sub>Subscript</sub>
+    <sup>Superscript</sup>
+-
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <form action="" method="post" >
+        <!-- 
+        - username
+        - email
+        - password
+        - data nastere
+        - termeni si conditii
+        - grupa
+        - numar matricol
+        -->
+        <label for="username">Username:</label>
+            <input type="text" id="username" name="User"  required>
+
+        <label for="email">Email:</label>
+            <input type="email" id="email" name="Email">
+
+
+        <label for="parola">Parola:</label>
+            <input type="password" id="parola" name="Password" minlength="4" pattern="[a-z]+">
+        
+            <label for="DataN">Data nasterii:</label>
+            <input type="date" id="DataN" name="DataNastere" min="2025-12-29">
+            
+            <label for="T&C">Termeni si conditii:</label>
+            <input type="checkbox" id="T&C" name="TermeniSiConditii">
+
+            <br>
+            <span>Grupa:</span>
+        <br/>
+            <label for="Gr1">Grupa 1</label>
+            <input type="radio" id="Gr1" name="Gr" value="Grupa1">
+           <br/>
+           
+            <label for="Gr2">Grupa 2</label>
+            <input type="radio" id="Gr2" name="Gr" value="Grupa2">
+        <br/>
+
+            <label for="Gr3">Grupa 3</label>
+            <input type="radio" id="Gr3" name="Gr" value="Grupa3">           
+           
+           <br/>
+            <label for="NumarM">Numar matricol:</label>
+            <input type="number" id="NumarM" name="NumarMatricol" min="1" max="1000">
+
+<br/>
+        <input type="submit" value="Inregistrare">
+        
+
+    </form>
+</body>
+</html>
