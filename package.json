@@ -1,0 +1,23 @@
+{
+  "name": "tw26-lungu-ana-maria",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Anaaaaaaaaaaaaaaaaaaa18/TW26-Lungu-Ana-Maria#readme",
+  "bugs": {
+    "url": "https://github.com/Anaaaaaaaaaaaaaaaaaaa18/TW26-Lungu-Ana-Maria/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anaaaaaaaaaaaaaaaaaaa18/TW26-Lungu-Ana-Maria.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
