@@ -1,0 +1,15 @@
+nav {
+  color: red;
+}
+
+.card button {
+  color: green;
+}
+
+.btn-success {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  
+}/*# sourceMappingURL=style2.css.map */
