@@ -1,9 +1,37 @@
 nav {
   color: red;
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 300px 2fr 1fr;
+  gap: 10px;
 }
 
 .card button {
   color: green;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: content-box;
+}
+
+.btn-base, .btn-error {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
 .btn-success {
@@ -11,5 +39,40 @@ nav {
   border-radius: 5px;
   padding: 10px 20px;
   cursor: pointer;
-  
+  background-color: green;
+}
+
+.btn-error {
+  background-color: red;
+}
+
+.p-1 {
+  padding: 1px;
+}
+
+.p-2 {
+  padding: 2px;
+}
+
+.p-4 {
+  padding: 4px;
+}
+
+.p-6 {
+  padding: 6px;
+}
+
+.p-8 {
+  padding: 8px;
+}
+
+@media (max-width: 768px) {
+  .btn-error {
+    background-color: rgb(0, 255, 217);
+  }
+}
+@media print {
+  .btn-error {
+    display: none;
+  }
 }/*# sourceMappingURL=style2.css.map */
