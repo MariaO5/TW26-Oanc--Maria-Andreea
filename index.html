@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+    <line x1="10" y1="10" x2="400" y2="10" stroke="red" stroke-width="5"/>
+    <polyline points="10,20 50,70 200,50 300,150 400,50" fill="none" stroke="blue" stroke-width="5"/>
+    <circle cx="100" cy="100" r="50" fill="green" stroke="black" stroke-width="3"/>
+    <polygon points="10,200 50,250 200,230 300,350 400,250" fill="yellow" stroke="orange" stroke-width="5"/>
+    <path d="M10 300 C 200 200, 300 400, 400 300" fill="none" stroke="purple" stroke-width="5"/>
+    </svg>
+
+    <h1>H1</h1>
+    <h2 id="h2">H2</h2>
+    <h3 class="h3">H3</h3>
+    text 
+
+
+    <script>
+       document.body.childNodes
+       document.body.children
+       document.getElementById("h2").innerText = "Inner Text"
+       document.getElementsByClassName("h3")[0]
+       document.getElementsByClassName("h3")[0].innerHTML = '<a href="#">test</a>'  
+
+       const h4 = document.createElement("h4");
+       h4.innerText = "H4";
+       document.body.appendChild(h4);
+
+       const h5 = document.createElement("h5");
+        h5.innerText = "H5";
+        document.body.insertBefore(h5, h4);  
+
+        document.body.removeChild(h5);
+    </script>
+
+</body>
+</html>
